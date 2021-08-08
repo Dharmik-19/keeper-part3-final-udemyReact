@@ -34,7 +34,8 @@ function CreateArea(props) {
         />
         <button
           onClick={() => {
-            props.onAdd(singleNote);
+            if (singleNote.title !== "" && singleNote.content !== "")
+              props.onAdd(singleNote);
             setSingleNote({ title: "", content: "" });
           }}
         >

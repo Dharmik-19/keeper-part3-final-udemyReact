@@ -9,6 +9,7 @@ function App() {
 
   function listAppend(newItem) {
     setMainList((prevValue) => {
+      //return [...prevValue, newItem];
       return [...prevValue, newItem];
     });
     //setSingleNote({ title: "", content: "" });

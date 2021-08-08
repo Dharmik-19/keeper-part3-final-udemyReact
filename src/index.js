@@ -18,3 +18,16 @@ ReactDOM.render(<App />, document.getElementById("root"));
 
 //This is the end result you're aiming for:
 //https://pogqj.csb.app/
+
+//Refer to the last two sandboxes, they have lots of indormation to be gained from them
+//1) https://codesandbox.io/s/managing-a-component-tree-practice-oe6y7?fontsize=14&hidenavigation=1&theme=dark
+//2) https://codesandbox.io/s/keeper-part-3-starting-pogqj?fontsize=14&hidenavigation=1&theme=dark
+
+//Refer to this for onKeyPress: https://www.codegrepper.com/code-examples/javascript/react+on+enter+keypress
+
+// <input onChange={addDummyItem} onKeyPress={enterPressed} type="text" value={dummyItem}/>
+
+// function enterPressed(e){
+//   e.key === "Enter" && addItem();
+//   //console.log(e.key);
+// }
