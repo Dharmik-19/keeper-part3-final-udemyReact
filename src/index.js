@@ -31,3 +31,8 @@ ReactDOM.render(<App />, document.getElementById("root"));
 //   e.key === "Enter" && addItem();
 //   //console.log(e.key);
 // }
+
+// Material-UI is very helpful
+// You can make your app more user accessible as well as insert cool symbols
+// Transparent textures is a webstie - add background templates to website
+//Just pick up your template and add the CSS code into the body element of the CSS file

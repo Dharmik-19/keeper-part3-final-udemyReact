@@ -1,4 +1,5 @@
 import React from "react";
+import DeleteIcon from "@material-ui/icons/Delete";
 
 function Note(props) {
   const id = props.id;
@@ -12,7 +13,7 @@ function Note(props) {
           props.deletion(id);
         }}
       >
-        DELETE
+        <DeleteIcon />
       </button>
     </div>
   );
