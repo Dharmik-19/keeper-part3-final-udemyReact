@@ -1,7 +1,7 @@
 {
-  "name": "keeper-part-3-starting",
+  "name": "keeper-app-final",
   "version": "1.0.0",
-  "description": "",
+  "description": "used: Material-UI, Transparent Templates, Conditional Rendering",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
